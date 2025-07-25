@@ -4,9 +4,9 @@
     flex-direction: row;
     /* border: 05px solid grey; */
     padding: 2px;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     align-items: center;
-    width: 100%;
+    width: 100vw;
     gap: 50px;
     justify-content: space-between;
 margin-bottom: 0px;
@@ -93,6 +93,17 @@ color: white;
 .header-nav-btn-p {
     font-size: large;
     padding: 5px;
+}
+
+@media (max-width: 479px) {
+    .small-mobile {
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+    .header, .header-nav {
+        position: relative;
+    }
 }
 
 /* --------------------------------------------------------------------------- */
@@ -769,7 +780,7 @@ background-color: rgb(238, 68, 68);
 color: black;
 font-weight: bolder;
 padding: 3px;
-padding-left: ;
+/* padding-left: ; */
 border-radius: 5px;
 border: 0px solid blue;
 box-shadow: 1px 3px 5px blueviolet;
